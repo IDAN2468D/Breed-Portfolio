@@ -16,9 +16,9 @@ function Navbar() {
                 </Hamburger>
                 <Menu isOpen={isOpen}>
                     <LinkWrapper>
-                        <MenuLink href="/">Search</MenuLink>
-                        <MenuLink href="/login">LogIn</MenuLink>
-                        <Button href="/register">join now</Button>
+                        <MenuLink to="/">Search</MenuLink>
+                        <MenuLink to="/login">LogIn</MenuLink>
+                        <Button to="/register">join now</Button>
                     </LinkWrapper>
                 </Menu>
             </Container>

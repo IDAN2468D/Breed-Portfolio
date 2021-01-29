@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import LogIn from './pages/LogIn/LogIn';
+import LogIn from './pages/Sing_In/Sing_In';
 import Register from './pages/Register/Register';
 
 

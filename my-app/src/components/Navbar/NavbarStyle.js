@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Nav = styled.div`
     display: flex;
@@ -62,7 +63,7 @@ export const LinkWrapper = styled.div`
         }
 `;
 
-export const MenuLink = styled.a`
+export const MenuLink = styled(Link)`
         text-decoration: none;
         color: #858585;
         font-size: 0.9rem;
@@ -112,7 +113,7 @@ export const Hamburger = styled.div`
         border-radius: 5px;
     }
 
-    @media (max-width: 670px){
+    @media (max-width: 768px){
         display: flex;
     }
 
